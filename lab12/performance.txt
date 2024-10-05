@@ -1,0 +1,129 @@
+ # These are performance for 1000x1000 matrix
+ Performance counter stats for './matrix_new 1':
+
+         12,290.00 msec task-clock                       #    1.000 CPUs utilized
+               171      context-switches                 #   13.914 /sec
+                 0      cpu-migrations                   #    0.000 /sec
+             2,998      page-faults                      #  243.938 /sec
+    22,027,776,681      cycles                           #    1.792 GHz
+    41,775,440,746      instructions                     #    1.90  insn per cycle
+   <not supported>      branches
+        32,237,297      branch-misses
+
+      12.294191859 seconds time elapsed
+
+      12.277457000 seconds user
+       0.011997000 seconds sys
+
+ Performance counter stats for './matrix_new 2':
+
+         12,270.21 msec task-clock                       #    1.976 CPUs utilized
+               182      context-switches                 #   14.833 /sec
+                 3      cpu-migrations                   #    0.244 /sec
+             3,000      page-faults                      #  244.495 /sec
+    21,942,034,457      cycles                           #    1.788 GHz
+    41,775,473,859      instructions                     #    1.90  insn per cycle
+   <not supported>      branches
+        32,252,523      branch-misses
+
+       6.210270678 seconds time elapsed
+
+      12.265800000 seconds user
+       0.003996000 seconds sys
+
+ Performance counter stats for './matrix_new 3':
+
+         12,319.30 msec task-clock                       #    2.922 CPUs utilized
+               314      context-switches                 #   25.488 /sec
+                 2      cpu-migrations                   #    0.162 /sec
+             3,001      page-faults                      #  243.601 /sec
+    21,927,282,184      cycles                           #    1.780 GHz
+    41,775,955,391      instructions                     #    1.91  insn per cycle
+   <not supported>      branches
+        32,285,331      branch-misses
+
+       4.215428176 seconds time elapsed
+
+      12.292871000 seconds user
+       0.024001000 seconds sys
+
+ Performance counter stats for './matrix_new 4':
+
+         12,179.25 msec task-clock                       #    3.844 CPUs utilized
+               460      context-switches                 #   37.769 /sec
+                 1      cpu-migrations                   #    0.082 /sec
+             3,004      page-faults                      #  246.649 /sec
+    21,917,224,427      cycles                           #    1.800 GHz
+    41,776,732,634      instructions                     #    1.91  insn per cycle
+   <not supported>      branches
+        32,318,209      branch-misses
+
+       3.168760052 seconds time elapsed
+
+      12.150515000 seconds user
+       0.023997000 seconds sys
+
+# These are performance for 2000x2000 matrix
+ Performance counter stats for './matrix_new 1':
+
+         97,999.24 msec task-clock                       #    1.000 CPUs utilized
+             1,326      context-switches                 #   13.531 /sec
+                 2      cpu-migrations                   #    0.020 /sec
+            11,787      page-faults                      #  120.276 /sec
+   176,281,690,460      cycles                           #    1.799 GHz
+   333,079,985,054      instructions                     #    1.89  insn per cycle
+   <not supported>      branches
+       261,286,825      branch-misses
+
+      98.023909126 seconds time elapsed
+
+      97.934702000 seconds user
+       0.063991000 seconds sys
+
+ Performance counter stats for './matrix_new 2':
+
+         97,668.01 msec task-clock                       #    1.988 CPUs utilized
+             1,456      context-switches                 #   14.908 /sec
+                13      cpu-migrations                   #    0.133 /sec
+            11,789      page-faults                      #  120.705 /sec
+   175,601,134,519      cycles                           #    1.798 GHz
+   333,075,884,359      instructions                     #    1.90  insn per cycle
+   <not supported>      branches
+       261,386,265      branch-misses
+
+      49.128103965 seconds time elapsed
+
+      97.607288000 seconds user
+       0.055985000 seconds sys
+
+ Performance counter stats for './matrix_new 3':
+
+         97,501.51 msec task-clock                       #    2.963 CPUs utilized
+             1,768      context-switches                 #   18.133 /sec
+                 5      cpu-migrations                   #    0.051 /sec
+            11,791      page-faults                      #  120.931 /sec
+   175,193,574,165      cycles                           #    1.797 GHz
+   333,076,590,237      instructions                     #    1.90  insn per cycle
+   <not supported>      branches
+       261,515,222      branch-misses
+
+      32.909083580 seconds time elapsed
+
+      97.415515000 seconds user
+       0.075965000 seconds sys
+
+ Performance counter stats for './matrix_new 4':
+
+         97,357.92 msec task-clock                       #    3.916 CPUs utilized
+             4,994      context-switches                 #   51.295 /sec
+                 1      cpu-migrations                   #    0.010 /sec
+            11,793      page-faults                      #  121.130 /sec
+   175,192,904,135      cycles                           #    1.799 GHz
+   333,096,652,808      instructions                     #    1.90  insn per cycle
+   <not supported>      branches
+       261,938,989      branch-misses
+
+      24.864479960 seconds time elapsed
+
+      97.261784000 seconds user
+       0.075960000 seconds sys
