@@ -1,0 +1,15 @@
+Thread 1: Task A - iteration 1
+Thread 2: Task B - iteration 1
+Thread 3: Task C - iteration 1
+Thread 1: Task A - iteration 2
+Thread 2: Task B - iteration 2
+Thread 1: Task A - iteration 3
+Thread 3: Task C - iteration 2
+Thread 1: Task A - iteration 4
+Thread 2: Task B - iteration 3
+Thread 1: Task A - iteration 5
+Thread 2: Task B - iteration 4
+Thread 3: Task C - iteration 3
+Thread 2: Task B - iteration 5
+Thread 3: Task C - iteration 4
+Thread 3: Task C - iteration 5

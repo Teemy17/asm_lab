@@ -3,7 +3,7 @@ use std::time::Duration;
 use rppal::gpio::Gpio;
 use rppal::system::DeviceInfo;
 
-const GPIO_2: u8 = 3;
+const GPIO_2: u8 = 2;
 
 fn main() {
     let device_info = DeviceInfo::new();
