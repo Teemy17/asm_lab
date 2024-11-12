@@ -5,18 +5,18 @@ double balance = 1000.0; // Shared resource: bank account balance
 pthread_mutex_t balance_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 void* deposit(void* amount) {
-//    pthread_mutex_lock(&balance_mutex);
+    pthread_mutex_lock(&balance_mutex);
     balance += *((double*)amount);
     printf("Deposited $%.2f. New balance: $%.2f\n", *((double*)amount), balance);
-//    pthread_mutex_unlock(&balance_mutex);
+    pthread_mutex_unlock(&balance_mutex);
     return NULL;
 }
 
 void* withdraw(void* amount) {
-//    pthread_mutex_lock(&balance_mutex);
+    pthread_mutex_lock(&balance_mutex);
     balance -= *((double*)amount);
     printf("Withdrew $%.2f. New balance: $%.2f\n", *((double*)amount), balance);
-//    pthread_mutex_unlock(&balance_mutex);
+    pthread_mutex_unlock(&balance_mutex);
     return NULL;
 }
 
@@ -34,4 +34,3 @@ int main() {
     printf("Final balance: $%.2f\n", balance);
     return 0;
 }
-
